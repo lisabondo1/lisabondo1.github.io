@@ -1,6 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <body>
-        FINAL
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Final Project</title>
+  <link rel="stylesheet" type="text/css" href="-mark2html-resources/assets/styles/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lekton">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Optima">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Wremena">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Karla">
+</head>
+
+<body>
+    <div id="topBarContainter">
+        <div id="topBar">
+                <img id="linkedinIcon" class="topBarIcon topBarItem" src="assets/img/linkedin.png" alt="">
+                <div id="linkedinText" class="topBarText topBarItem">
+                        <a id="linkedinLink" href="https://www.linkedin.com/in/lisa-bondo-andersen/">/lisa-bondo-andersen/</a>
+                </div>
+                <img id="mailIcon" class="topBarIcon topBarItem" src="assets/img/mail.png" alt="">
+                <div id="mailText" class="topBarText topBarItem">
+                        <a id="mailLink" href="mailto:lba@gatehouse.dk">lba@gatehouse.dk</a>
+                </div>
+        </div>
+    </div>
+    <div id="menuContainer" class="container">
+        <div class="menu" id="menuHome">
+                <div id="homeButton" class="menuItem menuButton" onclick="showTab('homeTab')" data-tab="homeTab">Home</div>
+                <div id="aboutButton" class="menuItem menuButton" onclick="showTab('aboutTab')" data-tab="aboutTab">About</div>
+                <div id="ProjectsButton" class="menuItem menuButton" onclick="showTab('projectsTab')" data-tab="projectsTab">Projects</div>
+                <div id="ExperienceButton" class="menuItem menuButton" onclick="showTab('experienceTab')" data-tab="experienceTab">Experience</div>
+        </div>
+    </div>
+    <div id="flower">
+        <img id="flowerIcon" class="" src="assets/img/flower.png" alt="">
+    </div>
+    <div id="contentContainer">
+        <div id="homeTab" data-flower="flower">
+                <img id="homeImg" src="assets/img/image.png" alt="">
+                <div id="HomeText">
+                        <div class="header" id="nameText">Lisa Bondo Andersen</div>
+                        <div class="header" id="occupationText">UX designer</div>
+                </div>
+        </div>
+        <div id="aboutTab" data-flower="flower">
+                <h2 id="aboutTitle">About</h2>
+                <p id="aboutTextOne" class="aboutText">Engineering Psychology student with great interest in optimizing user experience for a smoother 
+                        interaction between humans and, in particular, graphical interfaces. Studying at Aalborg University, 
+                        I enjoy and thrive working project-oriented and in teams. Furthermore, my knowledge spans widely from 
+                        user testing, programming and statistics to the psychology behind user experience. Equipped with the 
+                        latest academic knowledge and having years of business experience with web solutions, I have a strong 
+                        foundation and desire for creating strong usability.</p>
+                <p id="aboutTextTwo" class="aboutText">Prior to my university studies, I acquired a private pilot license in 2019. 
+                        Flying is now a keen interest of mine, requiring full attention and thus clearing my head from long days of studying. 
+                        I find this activity particularly interesting, as there is always room for improving and perfecting my skills, since weather 
+                        conditions are never quite as predicted. Similarly, I enjoy being part of an active community, in which experience is heavily 
+                        shared and appreciated.</p>
+                </div>
+        
+        <div id="projectsTab" data-flower="flower">
+                <h2 id="projectsTitle">Projects</h2>
+                <p class="projectsText">This is the projects tab.</p>
+        </div>
+        
+        <div id="experienceTab" data-flower="flower">
+                <h2 id="experienceTitle">Experience</h2>
+                <div id="experienceContainer">
+                        <div id="workContainer">
+                                <p class="experienceElementTitle" id="experienceElementTitleWork">Work</p>
+                                <div id="preelyContainer" class="workElementContainer">
+                                        <div id="preelyTitleContainer" class="workTitleContainer">
+                                                <p class="experienceTitle">Junior UX Designer, Preely</p>
+                                                <p class="experienceTitle">2021 –</p>
+                                        </div>
+                                        <ul id="preelyExperienceContainer" class="workExperienceContainer">
+                                                <li>Assisting in user interface design, usability tests, idea generation, and platform testing</li>
+                                                <li>Maintaining user experience and interaction on website and platform</li>
+                                                <li>Content creation on website and social media</li>
+                                        </ul>
+                                </div>
+                                <div class="workElementContainer">
+                                        <div class="workTitleContainer">
+                                                <p class="experienceTitle">Girls Day in Science (volunteer work), Aalborg University</p>
+                                                <p class="experienceTitle">2021</p>
+                                        </div>
+                                        <ul class="workExperienceContainer">
+                                                <li>Promoting STEM educations to girls in High School</li>
+                                                <li>Assisting and tutoring in relevant tasks as well as presenting current research material</li>
+                                        </ul>
+                                </div>
+                                <div class="workElementContainer">
+                                        <div class="workTitleContainer">
+                                                <p class="experienceTitle">Study Board Member (volunteer work), Aalborg University</p>
+                                                <p class="experienceTitle">2020 - 2021</p>
+                                        </div>
+                                        <ul class="workExperienceContainer">
+                                                <li>Maintaining and promoting students’ influence </li>
+                                                <li>Quality assurance of classes/study programmes through student evaluations</li>
+                                                <li>Exam dispensations</li>
+                                        </ul>
+                                </div>
+                                <div class="workElementContainer">
+                                        <div class="workTitleContainer">
+                                                <p class="experienceTitle">Assistant to Development Team, GateHouse A/S</p>
+                                                <p class="experienceTitle">2016 - 2019</p>
+                                        </div>
+                                        <ul class="workExperienceContainer">
+                                                <li>Assisting software development team in web solutions </li>
+                                                <li>Testing and developing graphical interfaces for tracking of cargo</li>
+                                                <li>Agile software development</li>
+                                                <li>Planning meetings, business trips etc. on behalf of management</li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <div id="educationContainer">
+                                <div id="workContainer">
+                                        <p class="experienceElementTitle" id="experienceElementTitleWork">Education</p>
+                                        <div id="preelyContainer" class="workElementContainer">
+                                                <div id="preelyTitleContainer" class="workTitleContainer">
+                                                        <p class="experienceTitle">Master’s degree in Engineering Psychology, Aalborg University</p>
+                                                        <p class="experienceTitle">2022 - 2024 (expected)</p>
+                                                </div>
+                                                <ul id="preelyExperienceContainer" class="workExperienceContainer">
+                                                        <li>Advanced skills in user experience design and human computer interaction</li>
+                                                        <li>Research project within assessing perceived credibility of web information furthered statistical skills and knowledge of experimental methods</li>
+                                                </ul>
+                                        </div>
+                                        <div class="workElementContainer">
+                                                <div class="workTitleContainer">
+                                                        <p class="experienceTitle">Semester abroad, University of California, Berkeley</p>
+                                                        <p class="experienceTitle">2023</p>
+                                                </div>
+                                                <ul class="workExperienceContainer">
+                                                        <li>Accessibility in UX, social psychology theory, machine learning and deep learning, web design</li>
+                                                        <li>Project-based research in collaboration with Danish dairy company, Arla, to improve sustainability within supply chain and packaging </li>
+                                                </ul>
+                                        </div>
+                                        <div class="workElementContainer">
+                                                <div class="workTitleContainer">
+                                                        <p class="experienceTitle">Innovation Camp, SoundHub Denmark</p>
+                                                        <p class="experienceTitle">2022</p>
+                                                </div>
+                                                <ul class="workExperienceContainer">
+                                                        <li>Strengthened teamwork skills across cultures and academic interests</li>
+                                                        <li>Innovative skills in problem solving, ideation and evaluation</li>
+                                                        <li>Pitching to industry</li>
+                                                </ul>
+                                        </div>
+                                        <div class="workElementContainer">
+                                                <div class="workTitleContainer">
+                                                        <p class="experienceTitle">Bachelor’s degree in Engineering Psychology, Aalborg University</p>
+                                                        <p class="experienceTitle">2019 - 2022</p>
+                                                </div>
+                                                <ul class="workExperienceContainer">
+                                                        <li>The technical aspect combined with how humans interact</li>
+                                                        <li>Competences within user experience and user testing, prototyping, programming, applied cognitive psychology and statistics  </li>
+                                                        <li>During my bachelor’s thesis in collaboration with a local IT company, I achieved practical knowledge within user research methods, user testing and prototyping a graphical user interface of a website-based maritime tracking platform</li>
+                                                </ul>
+                                        </div>
+                                        <div class="workElementContainer">
+                                                <div class="workTitleContainer">
+                                                        <p class="experienceTitle">High school, Aalborg Technical Gymnasium (HTX)</p>
+                                                        <p class="experienceTitle">2013 - 2016</p>
+                                                </div>
+                                                <ul class="workExperienceContainer">
+                                                        <li>Study programme: Science and Innovation (Mathematics A, English A and Innovation B)</li>
+                                                        <li>One month study abroad in Silicon Valley, California – an experience that confirmed my interest in engineering</li>
+                                                </ul>
+                                        </div>
+                        </div>
+                        <div id="endSpace"></div>
+                </div>
+        </div>
+     </div>
+<script src="assets/script.js"></script>
+</body>
+
 </html>
